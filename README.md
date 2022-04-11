@@ -18,6 +18,8 @@ Bare bones React setup with webpack and babel
 - [Build](#build)
 - [Start](#start)
 
+---
+
 ## Initialise the package
 
 `yarn init`
@@ -32,11 +34,15 @@ Bare bones React setup with webpack and babel
 yarn add react react-dom
 ```
 
+---
+
 ### Install webpack
 
 ```
 yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
+
+---
 
 ### Install Babel loaders
 
@@ -88,6 +94,8 @@ yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/co
 </html>
 ```
 
+---
+
 ### index.js
 
 ```js
@@ -98,6 +106,8 @@ import App from './App'
 ReactDOM.render(<App />, document.getElementById('app'))
 ```
 
+---
+
 ### App.js
 
 ```js
@@ -107,6 +117,8 @@ export default function App() {
   return <h1>Hello World</h1>
 }
 ```
+
+---
 
 ### webpack.config.js
 
@@ -154,6 +166,8 @@ In package.json
   },
 ```
 
+---
+
 ## Build
 
 `yarn build`
@@ -167,3 +181,5 @@ output to dist folder
 `yarn start`
 
 http://localhost:9000
+
+---
